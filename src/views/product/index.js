@@ -11,7 +11,8 @@ import {
   ToastAndroid,
   Vibration,
   Linking,
-  Platform
+  Platform,
+  SafeAreaView
 } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import BtnFavorite from '../../components/btnFavorite'
@@ -122,71 +123,72 @@ export default class ProductView extends Component {
   render() {
     let price = numeral(this.props.product.unit_price).format('($0,0)')
     return(
-      <View style = {{flex:1, backgroundColor: 'black'}}>
-
-        <Bar icon = "ios-arrow-round-back" title = {this.props.product.name} handlePress = {this.back} icon = "arrowLeft" cart = {true}>
-        </Bar>
-        <ScrollView style = {styles.main}>
-          <View>
-            <View style = {styles.actions}>
-              <View style = {styles.addFavorite}>
-                <BtnFavorite handlePress = {() => this.makeFavorite(this.props.product)} favorite = {this.state.favorite}/>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style = {{flex:1, backgroundColor: 'black'}}>
+          <Bar icon = "ios-arrow-round-back" title = {this.props.product.name} handlePress = {this.back} icon = "arrowLeft" cart = {true}>
+          </Bar>
+          <ScrollView style = {styles.main}>
+            <View>
+              <View style = {styles.actions}>
+                <View style = {styles.addFavorite}>
+                  <BtnFavorite handlePress = {() => this.makeFavorite(this.props.product)} favorite = {this.state.favorite}/>
+                </View>
+                <View style = {styles.addCar}>
+                  <BtnAddToCart  handlePress = {this.addToCart}/>
+                </View>
               </View>
-              <View style = {styles.addCar}>
-                <BtnAddToCart  handlePress = {this.addToCart}/>
-              </View>
-            </View>
-            <View style = {styles.containerImage}>
-              <Image
-                source = {{ uri: `${imagesEndoint}${this.props.product.images[0].path}` }}
-                resizeMode = 'stretch'
-                style = {styles.imageProduct}
-              />
-            </View>
-            <View style = {styles.productinfo}>
-              <View style = {{flex: 1, flexDirection: 'row', justifyContent: 'space-between', height: 50, alignItems: 'center'}}>
-                <Text style = {styles.productName}> {this.props.product.name} </Text>
-                <Text style = {{backgroundColor: 'white', color: 'black'}}> {price} </Text>
-              </View>
-            <Puntos />
-              <View style = {styles.productDescription}>
-                <Text style = {styles.productName}> Descripción: </Text>
-                <Text style = {styles.productName}> {this.props.product.description} </Text>
-              </View>
-            </View>
-            <Toast ref = 'toast' style={{backgroundColor:'green'}} position = 'center'/>
-            <View style = {{flex: 1}}>
-              <View style = {{flexDirection: 'row'}}>
-                <Text style = {styles.productName}> Síguenos en  </Text>
-                <Puntos customStyle = {styles.puntos}/>
-              </View>
-              <View style = {{flexDirection: 'row', paddingLeft: 20, paddingRight: 20, justifyContent: 'space-between', alignItems:'center', marginBottom: 15}}>
-                <Icon
-                  name = "facebook"
-                  size = {40}
-                  style = {{marginRight: 20}}
-                  color = "white"
-                  onPress = {() => this.handleLink('https://www.facebook.com/FoodandDrink24/')}
-                />
-                <Icon
-                  name = "instagram"
-                  color = "white"
-                  size = {40}
-                  style = {{marginLeft: 20}}
-                  onPress = {() => this.handleLink('https://www.instagram.com/foodanddrink24_7/')}
-                />
-                <Icon
-                  name = "twitter"
-                  color = "white"
-                  size = {40}
-                  style = {{marginLeft: 20}}
-                  onPress = {() => this.handleLink('https://www.instagram.com/foodanddrink24_7/')}
+              <View style = {styles.containerImage}>
+                <Image
+                  source = {{ uri: `${imagesEndoint}${this.props.product.images[0].path}` }}
+                  resizeMode = 'stretch'
+                  style = {styles.imageProduct}
                 />
               </View>
+              <View style = {styles.productinfo}>
+                <View style = {{flex: 1, flexDirection: 'row', justifyContent: 'space-between', height: 50, alignItems: 'center'}}>
+                  <Text style = {styles.productName}> {this.props.product.name} </Text>
+                  <Text style = {{backgroundColor: 'white', color: 'black'}}> {price} </Text>
+                </View>
+              <Puntos />
+                <View style = {styles.productDescription}>
+                  <Text style = {styles.productName}> Descripción: </Text>
+                  <Text style = {styles.productName}> {this.props.product.description} </Text>
+                </View>
+              </View>
+              <Toast ref = 'toast' style={{backgroundColor:'green'}} position = 'center'/>
+              <View style = {{flex: 1}}>
+                <View style = {{flexDirection: 'row'}}>
+                  <Text style = {styles.productName}> Síguenos en  </Text>
+                  <Puntos customStyle = {styles.puntos}/>
+                </View>
+                <View style = {{flexDirection: 'row', paddingLeft: 20, paddingRight: 20, justifyContent: 'space-between', alignItems:'center', marginBottom: 15}}>
+                  <Icon
+                    name = "facebook"
+                    size = {40}
+                    style = {{marginRight: 20}}
+                    color = "white"
+                    onPress = {() => this.handleLink('https://www.facebook.com/FoodandDrink24/')}
+                  />
+                  <Icon
+                    name = "instagram"
+                    color = "white"
+                    size = {40}
+                    style = {{marginLeft: 20}}
+                    onPress = {() => this.handleLink('https://www.instagram.com/foodanddrink24_7/')}
+                  />
+                  <Icon
+                    name = "twitter"
+                    color = "white"
+                    size = {40}
+                    style = {{marginLeft: 20}}
+                    onPress = {() => this.handleLink('https://www.instagram.com/foodanddrink24_7/')}
+                  />
+                </View>
+              </View>
             </View>
-          </View>
-        </ScrollView>
-      </View>
+          </ScrollView>
+        </View>
+      </SafeAreaView>
     )
   }
 }
@@ -225,7 +227,7 @@ const styles = StyleSheet.create({
   productName: {
     color: 'white',
     fontSize: 25,
-    fontFamily: 'Adventures & Overlanders'
+    fontFamily: Platform.OS === 'ios' ? 'Adventures  Overlanders' : 'Adventures & Overlanders' 
 
   },
   productDescription: {

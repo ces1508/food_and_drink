@@ -12,6 +12,8 @@ import {
   Modal,
   Alert,
   ActivityIndicator,
+  SafeAreaView,
+  Platform
 } from 'react-native'
 
 const width = Dimensions.get('window').width
@@ -92,38 +94,40 @@ export default class ConfirmBuy extends Component {
 
   render() {
     return(
-      <View style = {styles.main}>
-        <ArrowLeft />
-        {this.state.request?
-        (<View>
-          <ActivityIndicator color = 'red' size = "large"/>
-          <Text style = {[styles.buttonText, styles.rosalinaFont]}> Procesando tu pedido :) </Text>
-        </View>)
-        :(
-          <View>
-            <View style = {styles.imgContainer}>
-              <Text style = {{
-                color: 'white',
-                fontSize: 25,
-                textAlign: 'center',
-                textAlignVertical: 'center'
-              }}> Selecciona el tipo de pago </Text>
-              <View style = {styles.containerButtons}>
-                <TouchableHighlight onPress = {() => this.handlePayment('cod')}>
-                  <View style = {[styles.button, styles.btnEfectivo]}>
-                    <Text style = {styles.buttonText}> Efectivo </Text>
-                  </View>
-                </TouchableHighlight>
-                <TouchableHighlight onPress = {() => this.handlePayment('bank')}>
-                  <View style = {[styles.button, styles.btncreditCart]}>
-                    <Text style = {styles.buttonText}> Tarjeta </Text>
-                  </View>
-                </TouchableHighlight>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style = {styles.main}>
+          <ArrowLeft />
+          {this.state.request?
+          (<View>
+            <ActivityIndicator color = 'red' size = "large"/>
+            <Text style = {[styles.buttonText, styles.rosalinaFont]}> Procesando tu pedido :) </Text>
+          </View>)
+          :(
+            <View>
+              <View style = {styles.imgContainer}>
+                <Text style = {{
+                  color: 'white',
+                  fontSize: 25,
+                  textAlign: 'center',
+                  textAlignVertical: 'center'
+                }}> Selecciona el tipo de pago </Text>
+                <View style = {styles.containerButtons}>
+                  <TouchableHighlight onPress = {() => this.handlePayment('cod')}>
+                    <View style = {[styles.button, styles.btnEfectivo]}>
+                      <Text style = {styles.buttonText}> Efectivo </Text>
+                    </View>
+                  </TouchableHighlight>
+                  <TouchableHighlight onPress = {() => this.handlePayment('bank')}>
+                    <View style = {[styles.button, styles.btncreditCart]}>
+                      <Text style = {styles.buttonText}> Tarjeta </Text>
+                    </View>
+                  </TouchableHighlight>
+                </View>
               </View>
             </View>
-          </View>
-        )}
-      </View>
+          )}
+        </View>
+      </SafeAreaView>
     )
   }
 }
@@ -170,6 +174,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'red'
   },
   rosalinaFont: {
-    fontFamily: 'Adventures & Overlanders'
+    fontFamily: Platform.OS === 'ios' ? 'Adventures  Overlanders' : 'Adventures & Overlanders' 
   }
 })

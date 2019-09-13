@@ -6,6 +6,7 @@ import {
   AsyncStorage,
   FlatList,
   TouchableOpacity,
+  SafeAreaView
 } from 'react-native'
 
 import VideoCover from '../../components/video'
@@ -47,17 +48,19 @@ export default class Favorites extends Component {
   }
   render() {
     return (
-      <View style = {styles.main}>
-        <VideoCover />
-        <Bar icon = "ios-arrow-round-back" title = "Favoritos" handlePress = {this.back}/>
-        <FlatList
-          style = {styles.list}
-          numColumns = {2}
-          keyExtractor = {this._keyExtractor}
-          data = {this.state.listFavorites}
-          renderItem = {(item) => this.renderItem(item.item)}
-      />
-      </View>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style = {styles.main}>
+          <VideoCover />
+          <Bar icon = "ios-arrow-round-back" title = "Favoritos" handlePress = {this.back}/>
+          <FlatList
+            style = {styles.list}
+            numColumns = {2}
+            keyExtractor = {this._keyExtractor}
+            data = {this.state.listFavorites}
+            renderItem = {(item) => this.renderItem(item.item)}
+        />
+        </View>
+      </SafeAreaView>
     )
   }
 }
