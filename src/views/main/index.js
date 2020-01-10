@@ -34,11 +34,18 @@ export default class Main extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.categoryId && nextProps.categoryId !== this.state.categoryId) {
-      let { categoryId, categoryName } = nextProps
-     this.getData(categoryId, categoryName)
+  static getDerivedStateFromProps(props, state) {
+    if (props.categoryId && props.categoryId !== state.categoryId) {
+      let { categoryId, categoryName } = props
+      return {
+        categoryId,
+        categoryName
+      }
     }
+  }
+
+  componentDidUpdate (prevProps, prevState) {
+    if (prevState.categoryId !== this.state.categoryId) this.getData()
   }
 
   componentDidMount() {
@@ -49,9 +56,10 @@ export default class Main extends Component {
   toggleMenu() {
      Actions.drawerOpen({key: 'drawer', open: value => true })
   }
-  async getData(categoryId = 105, categoryName = "Cómidas Rápidas") {
+  async getData() {
+    const { categoryId } = this.state
     Actions.refresh({key: 'drawer', open: value => false })
-    this.setState({ loading: true, categoryName: categoryName, categoryId })
+    this.setState({ loading: true })
     let products = await api.getProducts(categoryId)
     this.setState({products: products, loading: false})
 

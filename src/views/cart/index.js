@@ -158,14 +158,17 @@ export default class Cart extends Component {
       <View style = {styles.main}>
         <ArrowLeft />
         <View style = {{flexDirection: 'row'}}>
-          <TouchableHighlight onPress = {() => this.Buy()} style = {styles.price}>
+          <TouchableHighlight 
+            onPress = {() => this.Buy()} 
+            style = {styles.price}>
           <View style = {{flexDirection: 'row'}}>
             <View style = {{flex: 1}} >
               <Text style = {[styles.colorWhite,]}> Total Pedido </Text>
               <Text style = {[styles.colorWhite, styles.total]}> {price} </Text>
               <Text style = {[styles.colorWhite,]}> + $2000 de Domicilio </Text>
             </View>
-            <View style = {{ marginRight: 5, position: 'absolute', top: 0, right: 0}}>
+            <View 
+              style = {{ position: 'absolute', top: 0, right: 0}}>
               <Image source = {require('../../../assets/images/manito.png')}
                 style = {{width: 85, height: 75}}
               />
@@ -194,7 +197,7 @@ const styles = StyleSheet.create({
     marginTop: 60,
     marginLeft: 20,
     marginRight: 20,
-    height: 100,
+    paddingVertical: 10,
     borderColor: 'white',
     borderWidth: 1
 

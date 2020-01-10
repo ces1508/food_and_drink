@@ -48,7 +48,7 @@ export default class Bar extends Component {
 
           />
           <View style = {{alignItems: 'center', flex: 1}}>
-            <Text style = {{fontFamily: 'Amontillados', fontSize: 50, color: 'white', textAlign: 'left', }}> {this.props.categoryName} </Text>
+            <Text style = {{fontFamily: 'Amontillados', fontSize: 35, color: 'white', textAlign: 'left', }}> {this.props.categoryName} </Text>
           </View>
           <TouchableHighlight onPress = {() => this.toogleModal()}>
             <View style = {{paddingHorizontal: 10}}>

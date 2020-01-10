@@ -15,7 +15,7 @@ export default class BtnFavoite extends Component {
       style = {{backgroundColor: 'gray'}}
       onPress = {() => this.props.handlePress()}
       >
-      <Text style={{ fontSize: 25, fontFamily: 'Adventures & Overlanders' }}>
+      <Text style={{ fontSize: 20, fontFamily: 'Adventures & Overlanders' }}>
         {this.props.favorite?'Quitar de Favoritos': 'Agregar a Favoritos'}
       </Text>
     </Icon.Button>

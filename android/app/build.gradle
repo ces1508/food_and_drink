@@ -131,8 +131,8 @@ android {
         applicationId "com.foodAndDrink"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 7
-        versionName "1.65"
+        versionCode 10
+        versionName "1.90"
     }
     splits {
         abi {
@@ -196,8 +196,6 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-vector-icons')
-    implementation project(':react-native-video')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 

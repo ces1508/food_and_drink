@@ -12,7 +12,7 @@ export default class BtnAddCart extends Component {
   render() {
     return(
       <Icon.Button name = "cart-outline" style = {{backgroundColor: 'gray'}} color = 'yellow' onPress = {() => this.props.handlePress()}>
-        <Text style = {{ fontSize: 25, fontFamily: 'Adventures & Overlanders' }}> Agregar al Carro </Text>
+        <Text style = {{ fontSize: 20, fontFamily: 'Adventures & Overlanders' }}> Agregar al Carro </Text>
       </Icon.Button>
     )
   }
