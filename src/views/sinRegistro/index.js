@@ -9,7 +9,8 @@ import {
   Text,
   Alert,
   AsyncStorage,
-  ScrollView
+  ScrollView,
+  SafeAreaView
 } from 'react-native'
 
 import Logo from '../../../assets/images/logo.png'
@@ -109,54 +110,56 @@ export default class WhitOutRegister extends Component {
   }
   render() {
     return (
-      <View style = {styles.main}>
-        <ArrowLeft />
-        <ScrollView>
-          <View style = {styles.containerLogo}>
-            <Image source = {Logo} style = {styles.logo} resizeMode = "contain"/>
-          </View>
-          <View style = {styles.form}>
-
-            <TextInput
-              placeholder = "Nombre"
-              style = {styles.input}
-              underlineColorAndroid = 'transparent'
-              onChangeText = { (text) => this.onChangeInput('username',text) }
-              value = {this.state.username}
-            />
-            <TextInput
-              placeholder = "Dirección"
-              style = {styles.input}
-              underlineColorAndroid = 'transparent'
-              onChangeText = { (text) => this.onChangeInput('delivery_address', text) }
-              value = {this.state.delivery_address}
-            />
-            <TextInput
-              placeholder = "Email"
-              style = {styles.input}
-              underlineColorAndroid = 'transparent'
-              onChangeText = { (text) => this.onChangeInput('email', text) }
-              value = {this.state.email}
-            />
-            <TextInput
-              placeholder = "Teléfono"
-              style = {styles.input}
-              underlineColorAndroid = 'transparent'
-              onChangeText = { (text) => this.onChangeInput('phone', text) }
-              value = {this.state.phone}
-              keyboardType = "numeric"
-            />
-            <View>
-              <TouchableHighlight onPress = {() => this.handleSubmit()}>
-                <View style = {styles.btn}>
-                  <Text style = {styles.textWhite}> Enviar Pedido </Text>
-                  <Icon name = "md-arrow-round-forward" color = "white" size = {30}/>
-                </View>
-              </TouchableHighlight>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style = {styles.main}>
+          <ArrowLeft />
+          <ScrollView>
+            <View style = {styles.containerLogo}>
+              <Image source = {Logo} style = {styles.logo} resizeMode = "contain"/>
             </View>
-          </View>
-        </ScrollView>
-      </View>
+            <View style = {styles.form}>
+
+              <TextInput
+                placeholder = "Nombre"
+                style = {styles.input}
+                underlineColorAndroid = 'transparent'
+                onChangeText = { (text) => this.onChangeInput('username',text) }
+                value = {this.state.username}
+              />
+              <TextInput
+                placeholder = "Dirección"
+                style = {styles.input}
+                underlineColorAndroid = 'transparent'
+                onChangeText = { (text) => this.onChangeInput('delivery_address', text) }
+                value = {this.state.delivery_address}
+              />
+              <TextInput
+                placeholder = "Email"
+                style = {styles.input}
+                underlineColorAndroid = 'transparent'
+                onChangeText = { (text) => this.onChangeInput('email', text) }
+                value = {this.state.email}
+              />
+              <TextInput
+                placeholder = "Teléfono"
+                style = {styles.input}
+                underlineColorAndroid = 'transparent'
+                onChangeText = { (text) => this.onChangeInput('phone', text) }
+                value = {this.state.phone}
+                keyboardType = "numeric"
+              />
+              <View>
+                <TouchableHighlight onPress = {() => this.handleSubmit()}>
+                  <View style = {styles.btn}>
+                    <Text style = {styles.textWhite}> Enviar Pedido </Text>
+                    <Icon name = "md-arrow-round-forward" color = "white" size = {30}/>
+                  </View>
+                </TouchableHighlight>
+              </View>
+            </View>
+          </ScrollView>
+        </View>
+      </SafeAreaView>
     )
   }
 }

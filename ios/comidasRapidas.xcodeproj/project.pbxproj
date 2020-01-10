@@ -5,22 +5,43 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* comidasRapidasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* comidasRapidasTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		213FB565337041279C1C4B8C /* MotionPicture_PersonalUseOnly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D5EF26762449DBB86DE874 /* MotionPicture_PersonalUseOnly.ttf */; };
+		223A502C823442159BFED1FC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDDBC5FC4334920AB433ADC /* Fontisto.ttf */; };
+		254DCC00EE724D9E9E9E6768 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5E793A57404775825982A1 /* Zocial.ttf */; };
+		2AC54D0FB335DEA9324B996A /* libPods-comidasRapidasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03C7A77E34A05B9B4FB122F /* libPods-comidasRapidasTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* comidasRapidasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* comidasRapidasTests.m */; };
+		3BDDB6E5D7414BA2B84362F1 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C031B0C3936A4DB1A942E065 /* MaterialCommunityIcons.ttf */; };
+		3CCA092652AA45EFAA213213 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFD8E8620D454273AFC57B96 /* Entypo.ttf */; };
+		3DD99D1F2B58497DAB5BB4CC /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA77C49A69E4310A1C1BE72 /* Feather.ttf */; };
 		461F69B136EA40329050303B /* Amontillados.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9761614154F4BBD96511B /* Amontillados.ttf */; };
-		ED9FEE91E3BB4E74ADA02107 /* beyond_the_mountains.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31223B2253274E1DB873A448 /* beyond_the_mountains.ttf */; };
-		213FB565337041279C1C4B8C /* MotionPicture_PersonalUseOnly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D5EF26762449DBB86DE874 /* MotionPicture_PersonalUseOnly.ttf */; };
+		4D1C5C50520B46DD8B1FCDB6 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7866A0AA0384FC68E0CBA4A /* Octicons.ttf */; };
 		4FF4484AD06F407EB7C21F2F /* Rosalina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B059CD17EE174DF3947EE4D8 /* Rosalina.ttf */; };
+		5E67C9D9242C850CBDDDA319 /* libPods-comidasRapidas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88B0375A48A75D59315F27B /* libPods-comidasRapidas.a */; };
+		5F378AC5F47C403F81F8BB52 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B143F62D98A04EEAA45793E4 /* SimpleLineIcons.ttf */; };
 		68B5C79AB1544ACAA8F9FC4E /* Typo_Round_Regular_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48464199A7F8465BB05FAEE6 /* Typo_Round_Regular_Demo.otf */; };
+		73EC78A8198046038CAB9CBB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BAF7B005C7542C0B329A5B3 /* EvilIcons.ttf */; };
+		821D47CAF8064912ACF3CC1E /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEBE1A0710A644C19E982A45 /* FontAwesome5_Regular.ttf */; };
+		879BEE810C64D448A67CFF99 /* libPods-comidasRapidas-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E156BF2A45EF90FD783CC31 /* libPods-comidasRapidas-tvOS.a */; };
+		8F8978F542934402A643E59D /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF90756E8DD455EA937BA76 /* FontAwesome5_Brands.ttf */; };
 		A205DB8696E74067BA04E33C /* Adventures & Overlanders.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CB28319CF14464A38E8A07 /* Adventures & Overlanders.ttf */; };
+		A4DE6653891D492AA3424FA5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B12467089DB4FA6860A456D /* FontAwesome.ttf */; };
+		A756E07723A2453BBD37BCD6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BA674A777842119A9F80DB /* Ionicons.ttf */; };
+		B02829B76EB34382991C3773 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0FD52D665406D8ADE6B33 /* FontAwesome5_Solid.ttf */; };
+		CBB096D4346943AE97581CC9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E86F80FD1E84617B1B3588F /* MaterialIcons.ttf */; };
+		D2EFADFD75BFB1BDE2CE936D /* libPods-comidasRapidas-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60C9FA3A7B49B9229F29C4E /* libPods-comidasRapidas-tvOSTests.a */; };
+		E7905D8229464786A2B69002 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 452D50BCEB7242038EF1B39E /* Foundation.ttf */; };
+		ED9FEE91E3BB4E74ADA02107 /* beyond_the_mountains.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31223B2253274E1DB873A448 /* beyond_the_mountains.ttf */; };
+		FB12526AB9734950865E584C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D213ECF419D24C138E1927BA /* AntDesign.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,16 +73,44 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = comidasRapidas/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = comidasRapidas/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = comidasRapidas/main.m; sourceTree = "<group>"; };
+		19D5EF26762449DBB86DE874 /* MotionPicture_PersonalUseOnly.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MotionPicture_PersonalUseOnly.ttf; path = ../assets/fonts/MotionPicture_PersonalUseOnly.ttf; sourceTree = "<group>"; };
+		1B12467089DB4FA6860A456D /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		1BAF7B005C7542C0B329A5B3 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		1E156BF2A45EF90FD783CC31 /* libPods-comidasRapidas-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-comidasRapidas-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F3BBF512CFA7FA44C8FD6 /* Pods-comidasRapidasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidasTests.debug.xcconfig"; path = "Target Support Files/Pods-comidasRapidasTests/Pods-comidasRapidasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* comidasRapidas-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "comidasRapidas-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* comidasRapidas-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "comidasRapidas-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFB55E68A6952E115B454A8 /* Pods-comidasRapidas-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-comidasRapidas-tvOS/Pods-comidasRapidas-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		31223B2253274E1DB873A448 /* beyond_the_mountains.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = beyond_the_mountains.ttf; path = ../assets/fonts/beyond_the_mountains.ttf; sourceTree = "<group>"; };
+		452D50BCEB7242038EF1B39E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		48464199A7F8465BB05FAEE6 /* Typo_Round_Regular_Demo.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Typo_Round_Regular_Demo.otf; path = ../assets/fonts/Typo_Round_Regular_Demo.otf; sourceTree = "<group>"; };
+		5A57A9428CCD85D0C8CB96B0 /* Pods-comidasRapidas-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-comidasRapidas-tvOSTests/Pods-comidasRapidas-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA9761614154F4BBD96511B /* Amontillados.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Amontillados.ttf; path = ../assets/fonts/Amontillados.ttf; sourceTree = "<group>"; };
+		5E86F80FD1E84617B1B3588F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		7464F681808074500D21CE2A /* Pods-comidasRapidas-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-comidasRapidas-tvOSTests/Pods-comidasRapidas-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		836876084E47C43BD18D20DA /* Pods-comidasRapidas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas.release.xcconfig"; path = "Target Support Files/Pods-comidasRapidas/Pods-comidasRapidas.release.xcconfig"; sourceTree = "<group>"; };
+		8BF90756E8DD455EA937BA76 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		9AD0FD52D665406D8ADE6B33 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		A03C7A77E34A05B9B4FB122F /* libPods-comidasRapidasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-comidasRapidasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBE1A0710A644C19E982A45 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		B059CD17EE174DF3947EE4D8 /* Rosalina.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Rosalina.ttf; path = ../assets/fonts/Rosalina.ttf; sourceTree = "<group>"; };
+		B143F62D98A04EEAA45793E4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		B60C9FA3A7B49B9229F29C4E /* libPods-comidasRapidas-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-comidasRapidas-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C031B0C3936A4DB1A942E065 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		CBDDBC5FC4334920AB433ADC /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		CC55AF656F5BAB057D1CF747 /* Pods-comidasRapidas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas.debug.xcconfig"; path = "Target Support Files/Pods-comidasRapidas/Pods-comidasRapidas.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA77C49A69E4310A1C1BE72 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		D213ECF419D24C138E1927BA /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D88B0375A48A75D59315F27B /* libPods-comidasRapidas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-comidasRapidas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A97177E6C7F34B92F52E86 /* Pods-comidasRapidasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidasTests.release.xcconfig"; path = "Target Support Files/Pods-comidasRapidasTests/Pods-comidasRapidasTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6CB28319CF14464A38E8A07 /* Adventures & Overlanders.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Adventures & Overlanders.ttf"; path = "../assets/fonts/Adventures & Overlanders.ttf"; sourceTree = "<group>"; };
+		EA5E793A57404775825982A1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		5CA9761614154F4BBD96511B /* Amontillados.ttf */ = {isa = PBXFileReference; name = "Amontillados.ttf"; path = "../assets/fonts/Amontillados.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		31223B2253274E1DB873A448 /* beyond_the_mountains.ttf */ = {isa = PBXFileReference; name = "beyond_the_mountains.ttf"; path = "../assets/fonts/beyond_the_mountains.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		19D5EF26762449DBB86DE874 /* MotionPicture_PersonalUseOnly.ttf */ = {isa = PBXFileReference; name = "MotionPicture_PersonalUseOnly.ttf"; path = "../assets/fonts/MotionPicture_PersonalUseOnly.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B059CD17EE174DF3947EE4D8 /* Rosalina.ttf */ = {isa = PBXFileReference; name = "Rosalina.ttf"; path = "../assets/fonts/Rosalina.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48464199A7F8465BB05FAEE6 /* Typo_Round_Regular_Demo.otf */ = {isa = PBXFileReference; name = "Typo_Round_Regular_Demo.otf"; path = "../assets/fonts/Typo_Round_Regular_Demo.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E6CB28319CF14464A38E8A07 /* Adventures & Overlanders.ttf */ = {isa = PBXFileReference; name = "Adventures & Overlanders.ttf"; path = "../assets/fonts/Adventures & Overlanders.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFD8E8620D454273AFC57B96 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		F1BA674A777842119A9F80DB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		F6D9FDCA3CA0533F14AF639E /* Pods-comidasRapidas-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comidasRapidas-tvOS.release.xcconfig"; path = "Target Support Files/Pods-comidasRapidas-tvOS/Pods-comidasRapidas-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F7866A0AA0384FC68E0CBA4A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC54D0FB335DEA9324B996A /* libPods-comidasRapidasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E67C9D9242C850CBDDDA319 /* libPods-comidasRapidas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879BEE810C64D448A67CFF99 /* libPods-comidasRapidas-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EFADFD75BFB1BDE2CE936D /* libPods-comidasRapidas-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +185,27 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				D88B0375A48A75D59315F27B /* libPods-comidasRapidas.a */,
+				1E156BF2A45EF90FD783CC31 /* libPods-comidasRapidas-tvOS.a */,
+				B60C9FA3A7B49B9229F29C4E /* libPods-comidasRapidas-tvOSTests.a */,
+				A03C7A77E34A05B9B4FB122F /* libPods-comidasRapidasTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BCC1DC4294E2497ED705DC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC55AF656F5BAB057D1CF747 /* Pods-comidasRapidas.debug.xcconfig */,
+				836876084E47C43BD18D20DA /* Pods-comidasRapidas.release.xcconfig */,
+				2EFB55E68A6952E115B454A8 /* Pods-comidasRapidas-tvOS.debug.xcconfig */,
+				F6D9FDCA3CA0533F14AF639E /* Pods-comidasRapidas-tvOS.release.xcconfig */,
+				5A57A9428CCD85D0C8CB96B0 /* Pods-comidasRapidas-tvOSTests.debug.xcconfig */,
+				7464F681808074500D21CE2A /* Pods-comidasRapidas-tvOSTests.release.xcconfig */,
+				1E8F3BBF512CFA7FA44C8FD6 /* Pods-comidasRapidasTests.debug.xcconfig */,
+				D9A97177E6C7F34B92F52E86 /* Pods-comidasRapidasTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -152,6 +224,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9329F1341D8F49CB83AD0FFA /* Resources */,
+				6BCC1DC4294E2497ED705DC4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -170,7 +243,7 @@
 			sourceTree = "<group>";
 		};
 		9329F1341D8F49CB83AD0FFA /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				5CA9761614154F4BBD96511B /* Amontillados.ttf */,
 				31223B2253274E1DB873A448 /* beyond_the_mountains.ttf */,
@@ -181,7 +254,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -190,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "comidasRapidasTests" */;
 			buildPhases = (
+				8AE37A6A5D8606B53CECCFDA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -208,18 +281,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "comidasRapidas" */;
 			buildPhases = (
+				1C4F538CFDAD0CF56AC67B62 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B8713DFE33F323C118FC5986 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = comidasRapidas;
-			productName = "comidasRapidas";
+			productName = comidasRapidas;
 			productReference = 13B07F961A680F5B00A75B9A /* comidasRapidas.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -227,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "comidasRapidas-tvOS" */;
 			buildPhases = (
+				B3C28CA11F7B343783FFA615 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -246,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "comidasRapidas-tvOSTests" */;
 			buildPhases = (
+				A301DD63E1E49138F1823787 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -273,12 +350,17 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = F2C425ZMLC;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F2C425ZMLC;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F2C425ZMLC;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -289,6 +371,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -360,6 +443,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1C4F538CFDAD0CF56AC67B62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comidasRapidas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +478,120 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		8AE37A6A5D8606B53CECCFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comidasRapidasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A301DD63E1E49138F1823787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comidasRapidas-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C28CA11F7B343783FFA615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comidasRapidas-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8713DFE33F323C118FC5986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comidasRapidas/Pods-comidasRapidas-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comidasRapidas/Pods-comidasRapidas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -479,6 +698,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8F3BBF512CFA7FA44C8FD6 /* Pods-comidasRapidasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -501,6 +721,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A97177E6C7F34B92F52E86 /* Pods-comidasRapidasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -520,10 +741,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC55AF656F5BAB057D1CF747 /* Pods-comidasRapidas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				INFOPLIST_FILE = comidasRapidas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -539,9 +762,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836876084E47C43BD18D20DA /* Pods-comidasRapidas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				INFOPLIST_FILE = comidasRapidas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -557,6 +782,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFB55E68A6952E115B454A8 /* Pods-comidasRapidas-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -565,6 +791,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "comidasRapidas-tvOS/Info.plist";
@@ -584,6 +811,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D9FDCA3CA0533F14AF639E /* Pods-comidasRapidas-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -593,6 +821,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "comidasRapidas-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -611,6 +840,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A57A9428CCD85D0C8CB96B0 /* Pods-comidasRapidas-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -618,6 +848,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "comidasRapidas-tvOSTests/Info.plist";
@@ -637,6 +868,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7464F681808074500D21CE2A /* Pods-comidasRapidas-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -645,6 +877,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F2C425ZMLC;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "comidasRapidas-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

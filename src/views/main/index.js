@@ -10,6 +10,7 @@ import {
   FlatList,
   StatusBar,
   ActivityIndicator,
+  SafeAreaView
 } from 'react-native';
 import {
   Actions
@@ -87,19 +88,21 @@ export default class Main extends Component {
   }
   render() {
     return (
-      <View style = {styles.container}>
-        <VideoCover />
-        <Bar icon = 'ios-menu' categoryName = {this.state.categoryName} handlePress = {this.toggleMenu} options = {true} icon = "menu"/>
-        {this.state.loading?this.renderLoading():
-          <FlatList
-            keyExtractor = {this._keyExtractor}
-            style = {styles.list}
-            numColumns = {2}
-            data = {this.state.products}
-            renderItem = {(product) => (this.renderProducts(product.item))}
-          />
-        }
-      </View>
+     // <SafeAreaView style={{ flex: 1 }}>
+        <View style = {styles.container}>
+          <VideoCover />
+          <Bar icon = 'ios-menu' categoryName = {this.state.categoryName} handlePress = {this.toggleMenu} options = {true} icon = "menu"/>
+          {this.state.loading?this.renderLoading():
+            <FlatList
+              keyExtractor = {this._keyExtractor}
+              style = {styles.list}
+              numColumns = {2}
+              data = {this.state.products}
+              renderItem = {(product) => (this.renderProducts(product.item))}
+            />
+          }
+        </View>
+    //  </SafeAreaView>
     )
   }
 }
